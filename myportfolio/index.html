@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html  lang="en" dir="ltr" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="utf-8">
+        <title>Thyjano Dania</title>
+        <link rel="stylesheet" href="Stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+    <input type="checkbox" id="check">
+    <!--header area start -->
+    <header>
+        <label for="check">
+            <i class="fa-solid fa-bars" id="sidebar_btn"></i>
+        </label>
+        <div class="left_area">
+            <h3>Thyjano <span>Dania</span></h3>
+        </div>
+
+    </header>
+    <!--header area end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+        <div style="text-align: center;">
+            <img src="img/thyjano.jpg" class="profile_image" alt="">
+            <h4> Thyjano Dania</h4>
+        </div>
+        <a href="#home"><i class="fa-solid fa-house"></i><span>Home</span></a>
+        <a href="#about-me"><i class="fa-solid fa-user"></i><span>Over mij</span></a>
+        <a href="#projecten"><i class="fa-solid fa-list"></i><span>Projecten</span></a>
+        <a href="#contact"><i class="fa-solid fa-address-card"></i><span>Contact</span></a>
+        <a href="#cv"><i class="fa-solid fa-file-circle-check"></i><span>CV</span></a>
+    </div>
+    <!--sidebar end-->
+
+    <div class="content">
+
+<!--        <div class="text-1">Hallo mijn naam is</div>-->
+<!--        <div class="text-2">Thyjano Dania</div>-->
+        <section id="home" class="home-section">
+            <div class="text-1">Hallo mijn naam is</div>
+            <div class="text-2">Thyjano Dania</div>
+            <div class="text-3">Ik ben een Software Developer</div>
+
+            <div class="container">
+                <h2 class="naam">
+                    <span class="mijn-naam mijn-naam-1">Thyjano</span>
+                    <span class="mijn-naam mijn-naam-2">Dania</span>
+                </h2>
+            </div>
+        </section>
+
+        <section id="about-me" class="about-me">
+            <h1>Over mij</h1>
+            <div class="about-me__content">
+
+                <img src="img/alfa.jpg" class="alfa">
+                <p>Hallo mijn naam is Thyjano ik ben 21 jaar oud en ik woon in Korreweg, Groningen. Ik ga naar het Alfa-College Groningen Boumaboulevard. Hier doe ik de opleiding
+                    <span style="color:red;font-weight:600">Software Developer (technical) MBO niveau 4.</span> Ik zit nu in mijn eerste jaar hiervoor heb ik 2 jaar IT-Security Systems and Devices gedaan maar het bleek toch niks voor mij te zijn dus ik ben overgestapt naar Software Development.
+                    Naast school werk ik doordeweeks bij verschillende plaatsen als een freelancer. Als ik niet aan het werk ben of bezig ben met school heb ik natuurlijk ook hobby's waar ik mezelf me bezig hou zoals Gamen, Muziek en natuurlijk ook Programmeren.
+                </p>
+                <img src="img/korreweg.png" class="img1">
+
+            </div>
+        </section>
+
+        <section id="projecten" class="projecten">
+            <h1>Projecten</h1>
+            <a href="/tictactoe/index.html">
+            <img src="img/tictactoe.png" class="tictactoe">
+            </a>
+
+            <a href="/todo-list/index.html">
+            <img src="img/todo.png" class="todo">
+            </a>
+
+            <a href="https://luxurycars-autoverhuur.nl/">
+                <img src="img/luxury.png" class="luxury">
+            </a>
+        </section>
+
+        <section id="contact" class="contact">
+            <h1>Contact me</h1>
+            <h2>Send me an E-mail to get back to you</h2>
+            <div class="contact-form">
+                <form id="contact-form" action="https://formsubmit.co/7727bbd9a6f1cb3f4eaf99cc5b38b67c" method="POST">
+                    <input type="text" name="_honey"  style="display: none";>
+                    <input type="hidden" name="_captcha" value="false";>
+                    <input type="hidden" name="_next" value="https://www.thyjanodania.nl/success.html">
+                    <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+                    <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+                    <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+                    <input type="submit" class="form-control submit" value="SEND MESSAGE"><br>
+                </form>
+            </div>
+
+        </section>
+        <section id="cv" class="cv">
+            <h1>CV</h1>
+            <p></p>
+            <a href="./Downloadables/CVThyjanoDania.pdf" download="CVThyjanoDania.pdf">
+            <img src="img/cvthyjanocss.png" class="cv_img">
+            </a>
+        </section>
+        </div>
+    </body>
+</html>
